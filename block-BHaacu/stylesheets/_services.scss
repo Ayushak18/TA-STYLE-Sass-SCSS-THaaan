@@ -1,23 +1,29 @@
-.services-para{
-    margin: 2rem 0;
+.services-para {
+  margin: 2rem 0;
 }
 
-.services-type{
-    margin-top: 5rem;
+.services-type {
+  margin-top: 5rem;
 }
 
 .service-col {
-    border: 2px solid rgb(223, 223, 223);
-    padding: 2rem 1rem;
-    border-radius: 0.5rem;
+  border: 2px solid rgb(223, 223, 223);
+  padding: 2rem 1rem;
+  border-radius: 0.5rem;
 
-    & p {
-        line-height: 2;
-        margin-bottom: 1rem;
-        font-size: 0.8rem;
-    }
+  & p {
+    line-height: 2;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+  }
 
-    & i{
-        color: rgb(220, 68, 69);
-    }
+  & i {
+    color: rgb(220, 68, 69);
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .service-col {
+    margin: 2rem 0;
+  }
 }

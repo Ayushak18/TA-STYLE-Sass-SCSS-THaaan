@@ -1,0 +1,27 @@
+.award {
+  & i {
+    color: rgb(220, 68, 69);
+  }
+
+  & h2{
+      margin: 2rem 0;
+  }
+  & .award-text p {
+    margin: 1rem 0;
+    line-height: 1.5;
+    padding: 0 10rem;
+  }
+
+  & .award-article-text p {
+    margin: 1rem 0;
+    line-height: 1.5;
+  }
+
+  & article {
+    margin: 3rem 0;
+  }
+}
+
+.award-article-img img {
+  width: 100%;
+}

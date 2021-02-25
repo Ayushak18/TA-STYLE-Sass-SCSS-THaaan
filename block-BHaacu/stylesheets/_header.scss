@@ -53,3 +53,65 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  // Upper Header
+  .upper-header {
+    & .social-media i {
+      margin: 1rem 0.5rem;
+    }
+
+    & .contact-header{
+      font-size: 0.9rem;
+    }
+  }
+
+  // Lower Header
+  .lower-header nav {
+    display: none;
+  }
+
+  .brand {
+    z-index: 11;
+  }
+
+  // Styling nav when checked
+  #burger:checked ~ nav {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 30px;
+    text-align: center;
+    background: rgba($color: rgb(255, 163, 163), $alpha: 1);
+    height: 100%;
+    z-index: 10;
+    padding-top: 50%;
+    & a {
+      color: white;
+      padding: 10rem 0;
+
+      &:hover {
+        background: none;
+        padding: 0;
+      }
+    }
+
+    & li {
+      margin: 2rem 0;
+    }
+  }
+
+  // Modifying label
+  label {
+    background: rgb(220, 68, 69);
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    color: white;
+    z-index: 11;
+  }
+
+  // End of the media query
+}
