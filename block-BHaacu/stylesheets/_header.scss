@@ -1,0 +1,55 @@
+// Upper Header
+.upper-header {
+  background: rgb(220, 68, 69);
+  padding: 1rem 0;
+  color: white;
+
+  // Selects all the a in the upper-header
+  & a {
+    color: white;
+  }
+
+  //   Selects all the icons in the upper-header
+  & i {
+    margin-right: 0.5rem;
+  }
+}
+
+.contact-header div {
+  margin: 0 0.5rem;
+}
+
+// Lower Header
+.lower-header {
+  background: rgb(242, 242, 242);
+  padding: 1rem 0;
+
+  //   Selects all the span of lower-header
+  & span {
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    // Selects first span
+    &:first-child {
+      color: rgb(220, 68, 69);
+    }
+
+    // Selects last span
+    &:last-child {
+      color: rgb(34, 34, 34);
+    }
+  }
+
+  //   Selects all the anchors of lower-header
+  & a {
+    color: rgb(66, 66, 66);
+    margin: 0 0.5rem;
+    font-weight: 500;
+    //   adding hover effect tto every anchor tag
+    &:hover {
+      color: white;
+      background: rgb(235, 95, 97);
+      padding: 1.25rem 1rem;
+    }
+  }
+}
