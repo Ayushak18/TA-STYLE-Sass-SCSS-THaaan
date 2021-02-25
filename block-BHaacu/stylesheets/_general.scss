@@ -2,8 +2,9 @@ html {
   font-size: 20px;
 }
 
-*::before,*::after{
-    box-sizing: border-box;
+*::before,
+*::after {
+  box-sizing: border-box;
 }
 
 body {
@@ -21,54 +22,77 @@ body {
   justify-content: space-between;
 }
 
-.justify-none{
-    justify-content: flex-start;
+.justify-none {
+  justify-content: flex-start;
 }
 
-.align-center{
-    align-items: center;
+.justify-even{
+    justify-content: space-evenly;
+}
+
+.align-center {
+  align-items: center;
 }
 
 a {
   text-decoration: none;
 }
 
-.pages-drop , .blog-drop{
-    display: none;
+.pages-drop,
+.blog-drop {
+  display: none;
 }
 
-.button{
-    color: rgb(220, 68, 69);
-    padding: 0.4rem 0.8rem;
-    border: 1px solid rgb(220, 68, 69);
-    display: inline-block;
-    border-radius: 1rem;
-    font-size: 0.8rem;
+.button {
+  color: rgb(220, 68, 69);
+  padding: 0.5rem 0.8rem;
+  border: 1px solid rgb(220, 68, 69);
+  display: inline-block;
+  border-radius: 1rem;
+  font-size: 0.8rem;
 }
 
-.active-button{
-    // Extending button class properties
-    @extend .button;
-    color: white;
-    background: rgb(220, 68, 69);
+.active-button {
+  // Extending button class properties
+  @extend .button;
+  color: white;
+  background: rgb(220, 68, 69);
 }
 
 // General Page heading
-.heading{
-    font-size: 2rem;
-    font-weight: 700;
-    color:rgb(27,30,36);
+.heading {
+  font-size: 2rem;
+  font-weight: 700;
+  color: rgb(27, 30, 36);
 }
 
-.text-center{
-    text-align: center;
+.heading-three {
+  @extend .heading;
+  font-size: 1.2rem;
+  margin: 1rem 0;
 }
 
-.para{
-    color: rgb(129,136,143);
+.text-center {
+  text-align: center;
 }
 
-.padding{
-    padding-top: 4rem;
-    padding-bottom: 4rem;
+.para {
+  color: rgb(129, 136, 143);
+}
+
+.padding {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.col-28 {
+  flex: 0 1 28%;
+}
+
+.col-45 {
+  flex: 0 1 45%;
+}
+
+.col-15{
+    flex: 0 1 15%;
 }
