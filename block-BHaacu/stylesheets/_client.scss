@@ -1,0 +1,11 @@
+.client{
+    background: rgb(248,249,250);
+
+    & .client-img{
+        margin-top: 1.5rem;
+    }
+
+    & img{
+        width: 100%;
+    }
+}
