@@ -25,17 +25,17 @@
       <!-- Upper-Header -->
       <div class="upper-header">
         <div class="container flex">
-          <div class="contact-header flex">
-            <div class="header-phone flex">
+          <div class="contact-header flex mobile-flex mobile-justify-center">
+            <div class="header-phone flex mobile-flex">
               <i class="fas fa-phone"></i>
               <p>+91-000-00-00000</p>
             </div>
-            <div class="header-mail flex">
+            <div class="header-mail flex mobile-flex">
               <i class="far fa-envelope-open"></i>
               <p>info@yourdomain.com</p>
             </div>
           </div>
-          <div class="social-media">
+          <div class="social-media mobile-center">
             <a href=""><i class="fab fa-facebook-square"></i></a>
             <a href=""><i class="fab fa-twitter-square"></i></a>
             <a href=""><i class="fab fa-instagram"></i></a>
@@ -46,8 +46,12 @@
 
       <!-- Lower-Header -->
       <div class="lower-header">
-        <div class="container flex align-center">
+        <div class="container flex align-center mobile-flex">
           <a href="#" class="brand"> <span>Uni</span> <span>TECH</span></a>
+          <input type="checkbox" name="Burger" id="burger" />
+          <label for="burger">
+            <i class="fas fa-bars fa-2x"></i>
+          </label>
           <nav>
             <ul class="flex">
               <li><a href="#" class="active">Home</a></li>
@@ -78,6 +82,7 @@
         </div>
       </div>
     </header>
+
     <!-- Main  -->
     <main>
       <!-- Hero Section -->
@@ -178,7 +183,7 @@
 
       <!-- Request -->
       <section class="request">
-        <div class="container">
+        <div class="container mobile-center">
           <article class="flex padding align-center">
             <div class="request-text">
               <h3>The best business consultancy in the world</h3>
@@ -216,7 +221,7 @@
       <section class="client">
         <div class="container padding text-center">
           <h2 class="heading">Our Clients</h2>
-          <div class="client-img flex">
+          <div class="client-img flex mobile-flex">
             <div class="col-15">
               <img src="./assets/media/spotify.png" alt="Spotify" />
             </div>
@@ -239,19 +244,22 @@
         </div>
       </section>
     </main>
+    
     <!-- Footer -->
     <footer>
-      <div class="container padding flex">
+      <div class="container padding flex mobile-center">
         <div class="col-28">
           <h4>Reach Us</h4>
           <ul>
             <li class="flex justify-none">
               <i class="fas fa-location-arrow"></i>#123,Manhatt 7 Avenu, NYC
             </li>
-            <li class="flex justify-none"><i class="fas fa-phone"></i>+91-000-00-00000</li>
-            <li class="flex justify-none"><i class="far fa-envelope-open"></i>info@domn.com</li>
-
-            <!-- <li><i class="far fa-envelope-open"></i>info@yourdomain.com</li> -->
+            <li class="flex justify-none">
+              <i class="fas fa-phone"></i>+91-000-00-00000
+            </li>
+            <li class="flex justify-none">
+              <i class="far fa-envelope-open"></i>info@domn.com
+            </li>
           </ul>
         </div>
         <div class="col-15">
@@ -280,6 +288,13 @@
           <a href=""><i class="fab fa-instagram"></i></a>
           <a href=""><i class="fas fa-basketball-ball"></i></a>
         </div>
+      </div>
+      <div class="footer-message text-center">
+        <small><span>Bootstrap Theme</span> by Web THemez.</small>
+        <small>
+          <br />
+          &copy; All Right Reserved</small
+        >
       </div>
     </footer>
   </body>

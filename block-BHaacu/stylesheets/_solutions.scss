@@ -7,3 +7,9 @@
         padding: 0 10rem;
     }
 }
+
+@media screen and (max-width: 786px) {
+    .solution p {
+      padding: 0;
+    }
+  }

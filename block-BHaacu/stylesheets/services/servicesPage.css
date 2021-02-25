@@ -389,142 +389,103 @@ label {
   }
 }
 
-.hero-section {
-  background: url(../assets/media/banner-1.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
-  height: 100vh;
+.hero {
+  background: #dc4445;
 }
 
-.hero-text {
-  padding-top: 5rem;
-  padding-bottom: 5rem;
-}
-
-.hero-heading {
-  font-size: 3.5rem;
+.our-services h4 {
+  color: #dc4445;
   font-weight: 700;
 }
 
-.hero-para {
-  padding: 1.2rem 0;
+.our-services h2 {
+  padding: 1.5rem 0;
 }
 
-.services-para {
-  margin: 2rem 0;
-}
-
-.services-type {
-  margin-top: 5rem;
-}
-
-.service-col {
-  border: 2px solid #dfdfdf;
-  padding: 2rem 1rem;
-  border-radius: 0.5rem;
-}
-
-.service-col p {
-  line-height: 2;
-  margin-bottom: 1rem;
-  font-size: 0.8rem;
-}
-
-.service-col i {
-  color: #dc4445;
-}
-
-@media screen and (max-width: 786px) {
-  .service-col {
-    margin: 2rem 0;
-  }
-}
-
-.solution {
-  background: #f8f9fa;
-}
-
-.solution p {
-  margin: 2rem 0;
+.our-services p {
   line-height: 1.5;
-  padding: 0 10rem;
 }
 
-@media screen and (max-width: 786px) {
-  .solution p {
-    padding: 0;
-  }
-}
-
-.consulting h2 {
-  margin: 2rem 0;
-}
-
-.consulting p {
-  line-height: 1.5;
-  margin-bottom: 2rem;
-}
-
-.consulting i {
-  color: #dc4445;
-}
-
-.consulting img {
+.our-services img {
   width: 100%;
 }
 
-@media screen and (max-width: 786px) {
-  .consulting a {
-    margin-bottom: 2rem;
-  }
+.product {
+  background: #f8f9fa;
 }
 
-.request {
+.product .product-text p {
+  padding: 1.3rem;
+}
+
+.product .col {
+  margin: 2rem 0;
+}
+
+.product .col h4 {
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin: 1.5rem 0;
+}
+
+.product .col p {
+  font-size: 0.8rem;
+  line-height: 1.3;
+}
+
+.product .col img {
+  width: 20%;
+}
+
+.best-deal {
   background: #dc4445;
   color: white;
 }
 
-.request a {
-  border-color: white;
+.best-deal h4 {
+  font-size: 1.5rem;
+  margin-right: 2rem;
 }
 
-.request h3 {
-  font-weight: 700;
-}
-
-.request p {
+.best-deal p {
   font-size: 0.8rem;
-  line-height: 1.5;
-  margin-top: 0.5rem;
+}
+
+.best-deal a {
+  border-color: white;
+  border-radius: 1rem;
 }
 
 @media screen and (max-width: 786px) {
-  .request a {
-    margin-top: 2rem;
+  .best-deal p {
+    margin: 1.5rem 0;
   }
 }
 
-.industry img {
-  width: 100%;
+.award i {
+  color: #dc4445;
 }
 
-.industry h2 {
-  margin-bottom: 1rem;
+.award h2 {
+  margin: 2rem 0;
 }
 
-.industry p {
+.award .award-text p {
+  margin: 1rem 0;
+  line-height: 1.5;
+  padding: 0 10rem;
+}
+
+.award .award-article-text p {
+  margin: 1rem 0;
   line-height: 1.5;
 }
 
-.client {
-  background: #f8f9fa;
+.award article {
+  margin: 3rem 0;
 }
 
-.client .client-img {
-  margin-top: 1.5rem;
-}
-
-.client img {
+.award-article-img img {
   width: 100%;
 }
 
@@ -570,4 +531,4 @@ footer .footer-message span {
     margin: 2rem 0;
   }
 }
-/*# sourceMappingURL=style.css.map */
+/*# sourceMappingURL=servicesPage.css.map */
