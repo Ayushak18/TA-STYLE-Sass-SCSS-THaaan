@@ -1,0 +1,31 @@
+.team{
+    background: rgb(248,249,250);
+
+    & .team-text p{
+        font-size: 0.8rem;
+        margin: 1rem 0;
+    }
+
+    & .team-members{
+        margin: 5rem 0;
+    }
+
+    & .member{
+        background: white;
+        & img{
+            width: 100%;
+        }
+
+        & h4{
+            color: rgb(41, 41, 41);
+            padding: 1rem 0;
+        }
+
+        & p{
+            color: rgb(220, 68, 69);
+            font-size: 0.8rem;
+            padding-bottom: 1rem;
+
+        }
+    }
+}
