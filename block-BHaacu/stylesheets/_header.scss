@@ -1,0 +1,117 @@
+// Upper Header
+.upper-header {
+  background: rgb(220, 68, 69);
+  padding: 1rem 0;
+  color: white;
+
+  // Selects all the a in the upper-header
+  & a {
+    color: white;
+  }
+
+  //   Selects all the icons in the upper-header
+  & i {
+    margin-right: 0.5rem;
+  }
+}
+
+.contact-header div {
+  margin: 0 0.5rem;
+}
+
+// Lower Header
+.lower-header {
+  background: rgb(242, 242, 242);
+  padding: 1rem 0;
+
+  //   Selects all the span of lower-header
+  & span {
+    font-size: 1.6rem;
+    font-weight: 700;
+
+    // Selects first span
+    &:first-child {
+      color: rgb(220, 68, 69);
+    }
+
+    // Selects last span
+    &:last-child {
+      color: rgb(34, 34, 34);
+    }
+  }
+
+  //   Selects all the anchors of lower-header
+  & a {
+    color: rgb(66, 66, 66);
+    margin: 0 0.5rem;
+    font-weight: 500;
+    //   adding hover effect tto every anchor tag
+    &:hover {
+      color: white;
+      background: rgb(235, 95, 97);
+      padding: 1.25rem 1rem;
+    }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  // Upper Header
+  .upper-header {
+    & .social-media i {
+      margin: 1rem 0.5rem;
+    }
+
+    & .contact-header{
+      font-size: 0.9rem;
+    }
+  }
+
+  // Lower Header
+  .lower-header nav {
+    display: none;
+  }
+
+  .brand {
+    z-index: 11;
+  }
+
+  // Styling nav when checked
+  #burger:checked ~ nav {
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    font-size: 30px;
+    text-align: center;
+    background: rgba($color: rgb(255, 163, 163), $alpha: 1);
+    height: 100%;
+    z-index: 10;
+    padding-top: 50%;
+    & a {
+      color: white;
+      padding: 10rem 0;
+
+      &:hover {
+        background: none;
+        padding: 0;
+      }
+    }
+
+    & li {
+      margin: 2rem 0;
+    }
+  }
+
+  // Modifying label
+  label {
+    background: rgb(220, 68, 69);
+    padding: 0.7rem;
+    border-radius: 0.3rem;
+    color: white;
+    z-index: 11;
+  }
+
+  // End of the media query
+}

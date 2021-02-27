@@ -1,0 +1,26 @@
+.mission{
+    & img{
+        width: 100%;
+    }
+
+    & h5{
+        font-weight: 700;
+    }
+
+    & .icon-text{
+        margin: 3rem 0;
+
+        & .icon{
+            margin-right: 2rem;
+        }
+
+        & h5{
+            margin: 1rem 0;
+        }
+
+        & p{
+            line-height: 1.5;
+            font-size: 0.8rem;
+        }
+    }
+}

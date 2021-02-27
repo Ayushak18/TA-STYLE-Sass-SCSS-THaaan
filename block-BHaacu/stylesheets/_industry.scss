@@ -1,0 +1,19 @@
+.industry{
+
+    & p:first-child{
+        color: rgb(220, 68, 69);
+        font-weight: 700;
+    }
+
+    & img{
+        width: 100%;
+    }
+
+    & h2{
+        margin-bottom: 1rem;
+    }
+
+    & p{
+        line-height: 1.5;
+    }
+}
