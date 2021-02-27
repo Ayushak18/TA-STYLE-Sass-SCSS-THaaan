@@ -1,0 +1,36 @@
+.contact {
+  & .contact-text p {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    line-height: 1.5;
+  }
+
+  background: rgb(248, 249, 250);
+
+  & .contact-icons {
+    & i {
+      background: rgb(224, 224, 224);
+      color: rgb(220, 68, 69);
+      padding: 1rem;
+      border-radius: 50%;
+    }
+
+    & h4 {
+      margin: 1rem 0;
+    }
+  }
+}
+
+@media screen and (max-width: 786px) {
+  .contact {
+    & .contact-text p {
+      padding: 0;
+    }
+
+    & .contact-icons {
+      & i {
+        margin: 2rem 0;
+      }
+    }
+  }
+}

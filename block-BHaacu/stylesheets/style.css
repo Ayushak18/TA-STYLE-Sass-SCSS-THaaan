@@ -181,6 +181,12 @@ body {
           align-items: center;
 }
 
+.align-stretch {
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
 a {
   text-decoration: none;
 }
@@ -232,6 +238,12 @@ a {
   -webkit-box-flex: 0;
       -ms-flex: 0 1 28%;
           flex: 0 1 28%;
+}
+
+.col-20 {
+  -webkit-box-flex: 0;
+      -ms-flex: 0 1 20%;
+          flex: 0 1 20%;
 }
 
 .col-45 {
@@ -502,6 +514,11 @@ label {
   .request a {
     margin-top: 2rem;
   }
+}
+
+.industry p:first-child {
+  color: #dc4445;
+  font-weight: 700;
 }
 
 .industry img {
